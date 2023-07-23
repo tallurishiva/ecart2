@@ -1,0 +1,141 @@
+.Nav{
+  background-color:#f0f0f0;
+  display:flex;
+  height: 80px;
+  align-items: center;
+  font-weight: 400;
+  justify-content:space-between;
+  box-shadow: 0px 3px 3px black;
+}
+.Nav .logo{
+  display: flex;
+  align-items: center;
+  height: 90px;
+  width: max-content;
+  padding: 4px;
+  margin-left: 50px;
+}
+.Nav .home{
+  background-color:rgb(201, 201, 237);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 45px;
+  width:45px;
+  padding: 4px;
+  margin-left: 20px;
+}
+.Nav .links{
+  display: flex;
+  flex-basis: 40px;
+  float: right;
+  align-items: center;
+  margin-right: 50px;
+  color: white;
+}
+.Sidebar{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.search{
+  width: 500px;
+  margin: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.prodects{
+  width: 500px;
+  height:400px;
+  display: block;
+  margin: 50px;
+}
+
+.prodpage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+.prodpage .image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 90vh;
+  margin-top: 2px;
+  perspective: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.prodpage .image div{
+  position: relative;
+  transform-style:preserve-3d;
+  z-index: -1;
+  height: 100%;
+}
+.prodpage .image .imf image{
+  transform: translate3d(-10px) scale(2);
+}
+
+.prodpage .Cart{
+  position: fixed;
+  bottom: 0;
+  background-color: aqua;
+  height: 50px;
+  width: 85%;
+  margin:50px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.prodpage .fil{
+  width: 100%;
+}
+.prodpage .fil .filter{
+  width: 500px;
+  margin: 20px;
+}
+.prodects .proddet{
+   display: flex;
+   justify-content: space-between;
+}
+.Addtocart{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.Addtocart button{
+  width: 30px;
+  height: 100%;
+  font-size:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 0;
+  background-color:white;
+}
+.Addtocart button:hover{
+   background-color: green;
+}
+.init button{
+  width: 100%;
+  height: 100%;
+}
+.Samp{
+  display: flex;
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  text-align: center;
+}
+

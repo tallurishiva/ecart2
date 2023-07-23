@@ -1,0 +1,11 @@
+.comp{
+    display: flexbox;
+    margin: 10px;
+}
+.comp .com{
+    margin: 2.5px;
+    border-radius: 4px;
+}
+.comp .com:hover{
+    color:red;
+}

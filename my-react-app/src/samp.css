@@ -1,0 +1,51 @@
+.samp{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.sampcomp{
+    display: flex;
+}
+.sampcomp .cartdet{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: max-content;
+    border-radius: 5px;
+    margin: 230px 0px 0px 0px;
+}
+.sampcomp select{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
+.sampcomp button{
+    margin: 3px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+}
+.added{
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    top: 70px;
+    border-radius: 20px;
+    right:2%;
+    height: 50px;
+    width: 300px;
+    background-color:rgb(237, 237, 81);
+}
+.toast{
+    position: fixed;
+    background-color: rgb(78, 75, 75);
+    color: white;
+    top: 68px;
+    right: 10px;
+    width: max-content;
+}
+

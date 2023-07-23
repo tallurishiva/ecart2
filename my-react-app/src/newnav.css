@@ -1,0 +1,70 @@
+.Nnav{
+    background-color:rgb(229, 228, 228);
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 60px;
+    box-shadow: 3px 2px 2px black;
+}
+.Nnav .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content:space-between;
+    height: 50px;
+    width: 140px;
+    margin-left: 15px;
+    color:blue;
+}
+.Nnav .feat{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 23px;
+    width:500px;
+    margin-right: 20px;
+}
+.Nnav .feat .btn{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logoname{
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    top:3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.profile{
+    position:fixed;
+    top:50px;
+    right:10px;
+    display: block;
+    width:200px;
+    height:max-content;
+    border-radius: 10px;
+    border:2px solid black;
+    z-index: 100;
+    background-color: whitesmoke;
+}
+.profilelogo:hover{
+    background-color: rgb(193, 185, 185);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.navlinks{
+    font-style:normal;
+}
+.navlinks:hover{
+    font-size:25px;
+}

@@ -1,0 +1,9 @@
+.justify-content-center{
+    display: flex;
+    gap: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.justify-content-center li:hover{
+    color: blueviolet;
+    font-size: 18px;
+}

@@ -1,0 +1,90 @@
+.seller{
+    min-height: 80vh;
+    max-width:1000px;
+}
+.comps{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.comp{
+    display: flex;
+    width: 100%;
+    background-color: rgb(231, 233, 233);
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 0.1px solid black;
+}
+.comp .button{
+    display: flex;
+    border: 0;
+    font-size: 28px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(224, 227, 227);
+    justify-content: space-between;
+}
+/* Form.css */
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+  }
+  
+  .form form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .form label {
+    font-weight: bold;
+  }
+  
+  .form-group {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+  }
+  
+  .form input,
+  .form textarea {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  .form textarea {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .toast{
+    position: fixed;
+    background-color: rgb(78, 75, 75);
+    color: white;
+    top: 68px;
+    right: 10px;
+    width: max-content;
+}

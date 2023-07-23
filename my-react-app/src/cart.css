@@ -1,0 +1,26 @@
+.Cart{
+    min-height: 89vh;
+}
+.cartcomp{
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.cartcomp button{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2px;
+}
+.emty{
+    height: 80vh;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
